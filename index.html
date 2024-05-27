@@ -3,20 +3,26 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Weather Report</title>
         <link rel="stylesheet" type="text/css" href="weather.css">
     </head>
     <body>
-    <center><p id="title">WEATHER REPORT</p></center><br><br><br><br>
+    <center>
+        <p id="title">WEATHER REPORT</p>
+    </center>
+    <br><br><br><br>
         <div class="box1">
             <div class="padding">
                 <form id="form">
-                <center>
-                <input type="text" id="city" placeholder=" Enter the city...">
-                </center>
+                    <center>
+                        <input type="text" id="city" placeholder=" Enter the city...">
+                        <button type="submit" id="getWeatherButton">Get Weather</button>
+                    </center>
                 </form>
             </div>
-        </div><br><br>
-        <center><main id="main"></main></center>
+            <center><main id="main"></main></center>
         <script src="weather.js"></script>
+        </div><br><br>
+        
     </body>
 </html>
